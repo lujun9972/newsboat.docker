@@ -1,0 +1,19 @@
+# It’s even possible to integrate the output of external commands into the configuration. The text between two backticks (`) is evaluated as shell command, and its output is put on its place instead. 
+
+# Just press the "/" key,Searching for articles
+browser "w3m %u"
+delete-read-articles-on-quit yes
+download-full-page yes
+player mpg123
+keep-articles-days 30
+
+# inoreader
+urls-source "inoreader"
+inoreader-login "lujun9972@gmail.com"
+inoreader-min-items 100
+inoreader-password ""
+inoreader-passwordfile  "~/.inoreader-password"
+inoreader-passwordeval ""
+inoreader-show-special-feeds "yes"
+inoreader-flag-share "a"
+inoreader-flag-star "b"

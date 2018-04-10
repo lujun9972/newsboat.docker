@@ -1,0 +1,10 @@
+#+TITLE: README
+#+AUTHOR: lujun9972
+#+TAGS: Newsboat.docker
+#+DATE: [2018-04-10 二 11:05]
+#+LANGUAGE:  zh-CN
+#+OPTIONS:  H:6 num:nil toc:t \n:nil ::t |:t ^:nil -:nil f:t *:t <:nil
+
+1. 把RSS URL填入rss.txt
+2. sudo docker build -t="newsboat" .
+3. sudo docker run -it --rm newsboat
