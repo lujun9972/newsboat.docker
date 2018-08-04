@@ -4,10 +4,9 @@
 browser "w3m %u"
 delete-read-articles-on-quit yes
 download-full-page yes
-player mpg123
 keep-articles-days 30
 
-# inoreader
+inoreader
 urls-source "inoreader"
 inoreader-login "lujun9972@gmail.com"
 inoreader-min-items 100
@@ -17,3 +16,7 @@ inoreader-passwordeval ""
 inoreader-show-special-feeds "yes"
 inoreader-flag-share "a"
 inoreader-flag-star "b"
+
+# podcast
+player mpg123
+download-path "~/Downloads/%h/%n"

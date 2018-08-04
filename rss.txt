@@ -1,1 +1,4 @@
-https://www.tecmint.com/feed/
+http://planet.emacsen.org/atom.xml
+http://sspai.com/feed
+http://planet.python.org/rss10.xml
+https://openlanguage.com/learn-english/podcast/%25E8%258B%25B1%25E8%25AF%25AD
